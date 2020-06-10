@@ -19,10 +19,14 @@ function createColumns(columns) {
         for(var j = 0; j < columns[i].length; j++) {
             columns[i][j] = Math.round(Math.random());
         }
-        
-        
     }
 }
+
 var matrix = createArray(matrixLength);
 createColumns(matrix)
 console.log(matrix);
+
+//iterate through the grid and then work on the logic nehind it, if dadada, at col[i][j], then for checks
+//col[i-1][j] etc.
+
+
